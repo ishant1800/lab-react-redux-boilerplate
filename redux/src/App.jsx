@@ -1,11 +1,15 @@
-import './App.css';
-import Counter from './Counter';
+import './App.css'
+import Actions from './components/Actions'
+import LikeCounter from './components/LikeCounter';
+
 function App() {
   return (
-    <div className="App">
-      <Counter/>
-    </div>
+    <>
+      <div>
+        <Actions />
+        <LikeCounter/>
+      </div>
+    </>
   );
 }
-
-export default App;
+export default App
